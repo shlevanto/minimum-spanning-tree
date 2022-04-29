@@ -4,11 +4,8 @@
 Tee kaarien vertailu näin:
 ```
 data Edge = Edge Int Int Int
-  deriving Show
+  deriving (Eq, Show)
 
 instance Ord Edge where
   compare (Edge _ _ w1) (Edge _ _ w2)  = compare w1 w2  
-
-instance Eq Edge where
-  (Edge s1 u1 w1) == (Edge s2 u2 w2) = s1 == s2 && u1 == u2 && w1 == w2
 ```
