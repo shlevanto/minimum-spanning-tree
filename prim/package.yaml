@@ -2,9 +2,9 @@ name:                prim
 version:             0.1.0.0
 github:              "githubuser/prim"
 license:             BSD3
-author:              "Author name here"
-maintainer:          "example@example.com"
-copyright:           "2022 Author name here"
+author:              "Simo Levanto"
+maintainer:          "simo.levanto@helsinki"
+copyright:           "2022 Simo Levanto, MIT License"
 
 extra-source-files:
 - README.md
